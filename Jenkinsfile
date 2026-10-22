@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Bhupeshh2906/Boardgame.git'
+                git branch: 'dev', url: 'https://github.com/Bhupeshh2906/Boardgame.git'
             }
         }
         stage('code compilation using maven') {
